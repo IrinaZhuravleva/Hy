@@ -1,0 +1,65 @@
+.right {
+	text-align: right;
+}
+
+.logo:hover {
+	cursor: pointer
+}
+
+.navigation-wrapper {
+	width: 100%;
+    margin: 0 auto;
+    padding: 25px 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+.navigation {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	.logo a:hover {
+		cursor: pointer;
+	}
+	a.navigation__link:hover {
+		border-bottom: 1px solid #fff;
+		// font-weight: 700;
+	}
+}
+
+.navigation__item {
+	margin-right: 20px;
+	letter-spacing: 0.2px;
+	&:last-child {
+		margin-right: 0px;
+	}
+}
+
+.navigation__link {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	padding-left: 1px;
+}
+
+.phone {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	/* Text style for "8 800 000" */
+	letter-spacing: 0.24px;
+	cursor: pointer;
+	a {
+		color: #ffffff;
+		cursor: pointer;
+	}
+	.email {
+		display: block;
+		text-decoration: underline;
+	}
+}

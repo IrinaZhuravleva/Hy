@@ -1,0 +1,121 @@
+// footer {
+// 	margin-top: 50px;
+// }
+
+.main-footer {
+	// margin-top: 50px;
+	min-height: 184px;
+	background-color: #323232;
+	color: #fff;
+	.logo {
+		margin-top: 28px;
+	}
+	.phone {
+		float: right;
+	}
+}
+
+.footer-nav-wrapper {
+	padding-top: 48px;
+}
+
+.copyright-nav-wrapper {
+	text-align: center;
+	// width: 800px;
+}
+.social-icons  {
+	margin-bottom: 10px;
+	margin-top: 24px;
+    float: right;
+	ul.soc {
+		padding: 0!important;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	li {
+		display: inline-block;
+		margin: 0 3px;
+		font-size: 20px;
+	}
+		
+	a {
+		color: #2c2c2c;
+	    font-size: 17px;
+	    display: block;
+	    background-color: transparent;
+	    height: 38px;
+	    width: 38px;
+	    text-align: center;
+	    margin: 0;
+	    line-height: 35px;
+	    border-radius: 10em;
+	    transition: background-color .25s ease;
+	    border: 2px solid grey;
+		color: #ABABAB;
+		margin-bottom: 0;
+		transition: color .5s ease, background-color .5s ease, border .5s ease;
+		&:hover{
+			border: 2px solid #fff;
+			background-color: #fff;
+			color: #323232;
+		}
+	}
+}
+
+.top {
+    position: fixed;
+    // bottom: 25px;
+    bottom: 200px;
+    border: 2px solid #01a402;
+    background-color: transparent;
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+    color: #666;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    right: -100px;
+    z-index: 12;
+    // background-color: #01a402;
+    i {
+		font-size: 43px;
+    	text-align: center;
+    	color: #01a402;
+		text-align: center;
+		cursor: pointer;
+		transition: all .3s ease;
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	&:hover {
+		color: #323232;
+		background-color: #fff;
+		background-color: #01a402;
+		opacity: 1;
+		color: black;
+	}
+	&.active {
+
+		right: 25px;
+	} 
+}
+
+.footer-nav-list {
+	display: flex;
+    justify-content: space-between;
+    // width: 100%;
+    padding-bottom: 15px;
+}
+
+.copyright {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}

@@ -155,7 +155,7 @@ $(window).scroll(function(){
 
   $('.petal-bottom-left').css({
 //     top: -70 + scroll/30 + "%",
-    top: -110 - scroll/30 + "%",
+    top: -100 + scroll/30 + "%",
   })
 
   // $('.petal-bottom-right').css({

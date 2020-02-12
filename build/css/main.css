@@ -605,7 +605,8 @@ ul.benefit-list li:not(:first-child) {
 }
 .petal-top-left {
   position: absolute;
-  top: 50px;
+/*   top: 50px; */
+  top: 600px;
   left: 250px;
   z-index: -1;
   width: 15%;

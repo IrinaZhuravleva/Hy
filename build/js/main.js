@@ -154,8 +154,8 @@ $(window).scroll(function(){
   })
 
   $('.petal-bottom-left').css({
-    top: -70 + scroll/30 + "%",
-    // left: -50 + scroll/20 + "%",
+//     top: -70 + scroll/30 + "%",
+    top: -90 + scroll/30 + "%",
   })
 
   // $('.petal-bottom-right').css({

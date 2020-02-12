@@ -514,7 +514,7 @@ ul.use-article-list {
   margin: 0 auto;
 }
 .image-bottom-use {
-  background-image: url(/img/bg-3.jpg);
+  background-image: url(../img/bg-3.jpg);
 }
 .spike-top-left {
   position: absolute;

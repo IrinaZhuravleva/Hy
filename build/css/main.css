@@ -1074,9 +1074,12 @@ ul.benefit-list li:not(:first-child) {
     width: 70px;
   }
   .spike-bottom-left {
-    top: 4px;
+/*     top: 4px;
     left: -5px;
-    width: 24%;
+    width: 24%; */
+    top: 200px;
+    left: -10px;
+    width: 35%;
   }
   .spike-top-right {
     width: 44%;
